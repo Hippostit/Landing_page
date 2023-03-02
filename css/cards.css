@@ -1,0 +1,39 @@
+.card img {
+  width: 80%;
+  height:250px;
+}
+
+.card p {
+  opacity: .7;
+}
+
+.card {
+  width: 420px;
+  border-radius: 30px;
+  box-shadow: rgb(50, 70, 222);
+  text-align: center;
+  padding: 25px;
+  border: 3px solid rgb(0,6,75);
+	margin: 55px;
+  color: #00064B;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+@media(max-width: 900px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 500px) {
+  .cards {
+    justify-content: space-around;
+  }
+}
